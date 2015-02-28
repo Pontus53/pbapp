@@ -1,5 +1,4 @@
 require 'socket' # Provides TCPServer and TCPSocket classes
-require 'win32ole'
 
 # Initialize a TCPServer object
 server = TCPServer.new('192.168.1.160', 2345)
@@ -18,13 +17,11 @@ loop do
   end
 
   if action(request) == "play"
-    skey = WIN32OLE.new('Wscript.Shell')
-    skey.sendKeys('{SPACE}')
+    
   end
 
   if action(request) == "pause"
-    skey = WIN32OLE.new('Wscript.Shell')
-    skey.sendKeys('{SPACE}')
+    
   end
 
   if action(request) == "shutdown"
