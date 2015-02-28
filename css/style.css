@@ -1,3 +1,49 @@
+@font-face {
+    font-family: "Prime";
+    src: url("https://dl.dropboxusercontent.com/u/47684022/Font/prime.woff") format("woff");
+}
+@font-face {
+    font-family: "PrimeLight";
+    src: url("https://dl.dropboxusercontent.com/u/47684022/Font/primelight.woff") format("woff");
+}
+
 body {
 	background-color: #6F8197;
+}
+
+#box_container {
+	background-color: #032149;
+	height: 800px;
+	width: 500px;
+	border-radius: 30px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+button {
+	height: 200px;
+	width: 350px;
+	margin-left: 75px;
+	font-size: 36px;
+	font-family: Prime, monospace;
+}
+
+#b1 {
+	margin-top: 100px;
+}
+
+#b2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#status {
+	text-align: center;
+	margin-top: 20px;
+	color: #BAB3B2;
+	font-size: 24px;
+}
+
+#status_text {
+	color: green;
 }
